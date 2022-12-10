@@ -945,7 +945,9 @@
 
             <!-- Text -->
             <p class="lead mb-7 text-center text-muted">
-Dans cet exercice nous avons reproduit l'interface de Youtube à partir d'une simple capture d'écran nous nous sommes appliqués à reproduire la mise en page puis à rajouter grace à Javascript un fonction "DarkMode".
+Dans cet exercice nous avons reproduit l'interface de Youtube à partir d'une simple capture d'écran nous nous sommes appliqués à reproduire la mise en page puis à rajouter grace à Javascript un fonction "DarkMode".<br />
+
+Nous avons ensuite ajouté une fonction d'enregistrement de nouvelles vidéos via le Localstorage !
             </p>
 
             <!-- Meta -->
@@ -1043,9 +1045,6 @@ Dans cet exercice nous avons reproduit l'interface de Youtube à partir d'une si
             </h2>
 
             <!-- Text -->
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi reiciendis odio perferendis libero saepe voluptatum fugiat dolore voluptates aut, ut quas doloremque quo ad quis ipsum molestias neque pariatur commodi.
-            </p>
             <ul class="mb-0">
               <li>
                 Le thème clair
@@ -1187,6 +1186,41 @@ Dans cet exercice nous avons reproduit l'interface de Youtube à partir d'une si
         </div> <!-- / .row -->
       </div> <!-- / .container -->
     </section>
+
+        <!-- SECTION -->
+        <section class="pt-6 pt-md-8">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-10 col-lg-9 col-xl-8">
+    
+                <!-- Heading -->
+                <h3 class="fw-bold">
+                  Le LocalStorage
+                </h3>
+    
+                <!-- Text -->
+                <p>
+                  Afin d'enregistrer de nouvelles vidéos favorites nous avons crée une balise html vide que nous remplissons ensuite dynamiquement grâce à JavaScript.
+                  Une fois le code IFRAME récupéré sur youtube nous l'enregistrons dans le LocalStorage avec la fonction "Save".<br/>
+                  Ensuite nous rafraichissons la page et allons chercher le contenu de notre Localstorage (spreadOperator) afin de boucler sur un tableau et d'afficher mes videos présentes en mémoire (Key + Value) dans ma balise html laissée vide jusqu'a présent.
+                </p>
+                                <!-- Image -->
+                                <a class="d-block lift lift-lg mb-4" data-bigpicture='{"imgSrc": "assets/img/screenshots/Savefunction.PNG"}' href="#">
+                                  <img src="assets/img/screenshots/Savefunction.PNG" alt="..." class="img-fluid rounded">
+                                </a>
+                                
+                                <!-- Image -->
+                                <a class="d-block lift lift-lg" data-bigpicture='{"imgSrc": "assets/img/screenshots/LoadFunction.PNG"}' href="#">
+                                  <img src="assets/img/screenshots/LoadFunction.PNG" alt="..." class="img-fluid rounded">
+                                </a>
+                                <br/>
+    
+    
+    
+              </div>
+            </div> <!-- / .row -->
+          </div> <!-- / .container -->
+        </section>
 
     <!-- SHAPE -->
     <div class="position-relative">
